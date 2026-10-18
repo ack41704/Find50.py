@@ -1,0 +1,9 @@
+readout,normalization,curves,4PL reported (%),median fold error,max fold error,within 1.25-fold (%)
+association,absolute,60,100.0,1.238,1.494,53.3
+association,relative,60,100.0,1.016,1.073,100.0
+dissociation,absolute,60,100.0,1.024,1.104,100.0
+dissociation,relative,60,100.0,1.025,1.115,100.0
+auc_full,absolute,60,100.0,1.152,1.309,81.7
+auc_full,relative,60,100.0,1.001,1.013,100.0
+auc_association,absolute,60,100.0,1.277,1.586,43.3
+auc_association,relative,60,100.0,1.002,1.014,100.0

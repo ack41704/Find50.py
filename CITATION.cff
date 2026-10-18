@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Find50: IC50 values from concentration-response data and Octet BLI exports"
+type: software
+authors:
+  - family-names: Khambete
+    given-names: Amav
+version: 1.0.0
+date-released: "2026-10-18"
+license: MIT
+repository-code: "https://github.com/ack41704/Find50.py"
+keywords:
+  - IC50
+  - dose-response
+  - four-parameter logistic
+  - biolayer interferometry
+  - Octet
+  - medicinal chemistry
+abstract: >-
+  Find50 reads Octet biolayer interferometry exports, assigns wells to inhibitor
+  dilution series, no-inhibitor references and positive controls from their Sample IDs,
+  reduces each sensor trace to association, dissociation and area-under-curve readouts,
+  and reports absolute and control-relative IC50 values from four-parameter logistic fits
+  with model-free interpolation and range-censoring rules.

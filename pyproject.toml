@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "find50"
+version = "1.0.0"
+description = "IC50 values from concentration-response data and Octet biolayer interferometry (BLI) exports"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Amav Khambete" }]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "pandas>=1.3",
+    "openpyxl>=3.0",
+    "matplotlib>=3.5",
+]
+keywords = ["IC50", "dose-response", "four-parameter logistic", "biolayer interferometry", "Octet", "BLI", "medicinal chemistry"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+find50 = "find50.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ack41704/Find50.py"
+Issues = "https://github.com/ack41704/Find50.py/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
