@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite the paper below (preferred-citation)."
 title: "Find50: IC50 values from concentration-response data and Octet BLI exports"
 type: software
 authors:
@@ -22,3 +22,39 @@ abstract: >-
   reduces each sensor trace to association, dissociation and area-under-curve readouts,
   and reports absolute and control-relative IC50 values from four-parameter logistic fits
   with model-free interpolation and range-censoring rules.
+preferred-citation:
+  type: article
+  title: "Eph-Ephrin Tetramerization Inhibitors Target Bidirectional Signaling to Combat Pain and Addiction"
+  authors:
+    - family-names: "Wang"
+      given-names: "Hanghang"
+    - family-names: "Khambete"
+      given-names: "Amav"
+    - family-names: "Sprouse"
+      given-names: "Frances"
+    - family-names: "Karsi"
+      given-names: "Melody"
+    - family-names: "Cortez"
+      given-names: "Karina"
+    - family-names: "Bellinghausen"
+      given-names: "Eric"
+    - family-names: "Khuu"
+      given-names: "Tamdan"
+    - family-names: "Block"
+      given-names: "Natalie"
+    - family-names: "Talebian"
+      given-names: "Asghar"
+    - family-names: "Ahmed"
+      given-names: "Mahmoud Salama"
+    - family-names: "Gedara"
+      given-names: "Chinthaka Mahesh Udamulle"
+    - family-names: "Ortiz"
+      given-names: "Michael"
+    - family-names: "Henkemeyer"
+      given-names: "Mark"
+      orcid: "https://orcid.org/0000-0002-7525-1061"
+  journal: "bioRxiv"
+  year: 2025
+  month: 12
+  doi: "10.64898/2025.12.08.692997"
+  url: "https://www.biorxiv.org/content/10.64898/2025.12.08.692997v2"

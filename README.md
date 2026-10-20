@@ -285,10 +285,22 @@ legacy/          the original notebook (outputs cleared)
 
 ## Citation
 
-If you use Find50, please cite it. GitHub's **Cite this repository** button uses
-[`CITATION.cff`](CITATION.cff):
+If you use Find50, please cite our paper:
 
-> Khambete, A. *Find50: IC50 values from concentration–response data and Octet BLI exports* (v1.0.0). https://github.com/ack41704/Find50.py
+> Wang, H., Khambete, A., Sprouse, F., Karsi, M., Cortez, K., Bellinghausen, E., Khuu, T., Block, N., Talebian, A., Ahmed, M. S., Gedara, C. M. U., Ortiz, M., & Henkemeyer, M. (2025). Eph-Ephrin Tetramerization Inhibitors Target Bidirectional Signaling to Combat Pain and Addiction. *bioRxiv*. https://doi.org/10.64898/2025.12.08.692997
+
+```bibtex
+@article{wang2025eph,
+  title   = {Eph-Ephrin Tetramerization Inhibitors Target Bidirectional Signaling to Combat Pain and Addiction},
+  author  = {Wang, Hanghang and Khambete, Amav and Sprouse, Frances and Karsi, Melody and Cortez, Karina and Bellinghausen, Eric and Khuu, Tamdan and Block, Natalie and Talebian, Asghar and Ahmed, Mahmoud Salama and Gedara, Chinthaka Mahesh Udamulle and Ortiz, Michael and Henkemeyer, Mark},
+  journal = {bioRxiv},
+  year    = {2025},
+  doi     = {10.64898/2025.12.08.692997},
+  url     = {https://www.biorxiv.org/content/10.64898/2025.12.08.692997v2}
+}
+```
+
+GitHub's **Cite this repository** button gives the same reference (from [`CITATION.cff`](CITATION.cff)), which also records the software version.
 
 ## License
 
